@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer and Datetime calculator</title>
+   
+    <link rel="stylesheet" href="./src/timer.css">
+    <!-- <script require('./main')></script> -->
+    <!-- <script src="./src/index.js"></script> -->
+    <script src="/src/main.js" type="module"></script>
+    
+</head>
+<body>
+
+  
+    <form id="datecalc" class="show">
+        <button id="showChanging" >Перейти в таймер</button>
+        <h3>Калькулятор дат</h3>
+        <label>
+            <strong>First date:</strong>
+            <input type="date" name="firstDate">
+        </label>
+        <label >
+            <strong>Second date:</strong>
+            <input type="date" name="secondDate">
+
+        </label>
+        <button type="submit">Calculate</button>
+        <p id="datecalc_result"></p>
+    </form>
+    
+    <form id="timer_form" class="hide">
+        <button id="showChanging" >Перейти в Калькулятор дат</button>
+        <h3>Таймер</h3>
+        <p class="timer-style"  id="timer">1 : 00</p>
+        <button id="startbtn">Start</button>
+        <button id="pausebtn" disabled>Stop</button>
+        <button id="clearbtn">Clear</button>
+        <button type='button' id="music"><audio src="./music/music.mp3"></audio>
+        </button>
+    </form>
+   
+ 
+  
+</body>
+</html>
