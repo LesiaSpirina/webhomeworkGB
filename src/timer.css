@@ -1,0 +1,16 @@
+.timer-style{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 500px;
+    justify-content: center;
+    font-size: 60px;
+}
+.show{
+    display: block
+}
+.hide{
+    display: none;
+
+}
